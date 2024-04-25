@@ -10,6 +10,12 @@
 		--color-text: #fff;
 	}
 }
+@media screen and (max-width: 600px) {
+	:root {
+		--font-large: 2.5rem;
+		--font-medium: 1.2rem;
+	}
+}
 
 *,
 *::before,
@@ -29,6 +35,17 @@ html {
 		-apple-system;
 	background-color: var(--color-bg);
 	color: var(--color-text);
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
 }
 
 a {
