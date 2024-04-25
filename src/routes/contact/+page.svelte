@@ -6,9 +6,10 @@
 <main>
 	<a href="mailto:glennbarosen@gmail.com">glennbarosen@gmail.com</a>
 	<a href="tel:92822779">+47 928 22 779</a>
-	<a href="https://www.linkedin.com/in/glenn-barosen" target="_blank" rel="noopener noreferrer">
+	<a href="https://linkedin.com/in/glenn-barosen" target="_blank" rel="noopener noreferrer">
 		LinkedIn
 	</a>
+	<a href="https://github.com/glennbarosen" target="_blank" rel="noopener noreferrer">Github</a>
 </main>
 
 <style>
