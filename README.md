@@ -1,5 +1,5 @@
-### homepage
+# homepage
 
-> My personal homepage
+> 👋 My personal homepage.
 
-Check it out [here.](https://glennbarosen.com)
+Built with SvelteKit.
