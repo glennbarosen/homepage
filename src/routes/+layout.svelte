@@ -20,6 +20,9 @@
 	<main>
 		<slot />
 	</main>
+	<footer>
+		<p>© {new Date().getFullYear()} Glenn Arnold Barosen</p>
+	</footer>
 </div>
 
 <style>
@@ -31,5 +34,13 @@
 	}
 	header {
 		height: 5rem;
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	footer {
+		padding-top: 4rem;
+		margin-top: auto;
 	}
 </style>
