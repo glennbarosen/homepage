@@ -25,8 +25,8 @@
 	<section style="margin-top: 2rem;">
 		<h2>Last ned CV</h2>
 		<div class="cv-links">
-			<a href="/cv/cv-nb-v2.pdf" download>Norsk</a>
-			<a href="/cv/cv-en-v2.pdf" download>English</a>
+			<a href="/cv/cv-nb.pdf" download>Norsk</a>
+			<a href="/cv/cv-en.pdf" download>English</a>
 		</div>
 	</section>
 </div>
