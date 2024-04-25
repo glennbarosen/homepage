@@ -20,6 +20,7 @@
 	article {
 		display: flex;
 		flex-direction: column;
+		margin-bottom: 1rem;
 	}
 	h2 {
 		font-size: var(--font-large);

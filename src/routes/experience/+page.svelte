@@ -29,6 +29,7 @@
 		flex-direction: column;
 		gap: 5rem;
 	}
+
 	h1 {
 		font-size: 0.8rem;
 		font-weight: 100;
