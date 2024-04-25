@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+	<title>Om - Glenn.</title>
+	<meta name="description" content="About Glenn Arnold Barosen" />
 </svelte:head>
 
 <main>
