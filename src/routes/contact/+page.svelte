@@ -1,6 +1,6 @@
 <svelte:head>
 	<title>Kontakt - Glenn.</title>
-	<meta name="description" content="About this app" />
+	<meta name="description" content="Ways to contact Glenn Arnold Barosen" />
 </svelte:head>
 
 <main>
