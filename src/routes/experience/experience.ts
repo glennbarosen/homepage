@@ -10,12 +10,17 @@ export type Experience = {
 
 export const experience: Record<ExperienceType, Experience[]> = {
 	work: [
-		
+		{
+			title: 'Seniorutvikler',
+			company: 'Fremtind',
+			startDate: 'Juni 25',
+			endDate: 'd.d.'
+		},
 		{
 			title: 'Utvikler',
 			company: 'Fremtind',
 			startDate: 'Mai 24',
-			endDate: 'd.d.'
+			endDate: 'Mai 25'
 		},
 		{
 			title: 'Web lead',
