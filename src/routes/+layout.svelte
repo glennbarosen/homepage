@@ -1,7 +1,10 @@
-<script>
+<script lang="ts">
 	import { onNavigate } from '$app/navigation';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
+	import type { Snippet } from 'svelte';
 	import './styles.css';
+
+	let { children }: { children: Snippet } = $props();
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -20,17 +23,19 @@
 		rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
 	/>
+	<meta property="og:site_name" content="Glenn Arnold Barosen" />
+	<meta property="og:type" content="website" />
 </svelte:head>
 <div class="container">
 	<header>
-		{#if $page.route.id !== '/'}
-			<a href="/">
-				<span class="material-symbols-outlined">arrow_back</span>
+		{#if page.route.id !== '/'}
+			<a href="/" aria-label="Gå tilbake til forsiden">
+				<span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
 			</a>
 		{/if}
 	</header>
 	<main>
-		<slot />
+		{@render children()}
 	</main>
 	<footer>
 		<p>© {new Date().getFullYear()} Glenn Arnold Barosen</p>

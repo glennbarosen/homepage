@@ -1,11 +1,14 @@
 <svelte:head>
 	<title>Kontakt - Glenn.</title>
-	<meta name="description" content="Ways to contact Glenn Arnold Barosen" />
+	<meta name="description" content="Kontaktinformasjon for Glenn Arnold Barosen" />
+	<meta property="og:title" content="Kontakt Glenn Arnold Barosen" />
 </svelte:head>
 
 <main>
-	<a href="mailto:glennbarosen@gmail.com">glennbarosen@gmail.com</a>
-	<a href="tel:92822779">+47 928 22 779</a>
+	<a href="mailto:glennbarosen@gmail.com" aria-label="Send e-post til Glenn"
+		>glennbarosen@gmail.com</a
+	>
+	<a href="tel:92822779" aria-label="Ring Glenn">+47 928 22 779</a>
 	<a href="https://linkedin.com/in/glenn-barosen" target="_blank" rel="noopener noreferrer">
 		LinkedIn
 	</a>

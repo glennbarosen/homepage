@@ -1,9 +1,6 @@
 <script lang="ts">
 	import type { Education as EducationItem } from '$lib/data/cv';
-	export let degree: EducationItem['degree'] = '';
-	export let institution: EducationItem['institution'] = '';
-	export let period: EducationItem['period'] = '';
-	export let details: EducationItem['details'] = undefined;
+	let { degree = '', institution = '', period = '', details = undefined }: EducationItem = $props();
 </script>
 
 <article>

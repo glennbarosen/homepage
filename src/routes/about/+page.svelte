@@ -1,6 +1,10 @@
 <svelte:head>
 	<title>Om - Glenn.</title>
-	<meta name="description" content="About Glenn Arnold Barosen" />
+	<meta
+		name="description"
+		content="Om Glenn Arnold Barosen - fullstackutvikler med fokus på frontend"
+	/>
+	<meta property="og:title" content="Om Glenn Arnold Barosen" />
 </svelte:head>
 
 <main>

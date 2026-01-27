@@ -10,10 +10,10 @@ A personal portfolio website for Glenn Arnold Barosen, built with SvelteKit. The
 
 ## Tech Stack
 
-- **Framework**: SvelteKit 2.x with Svelte 4.x
+- **Framework**: SvelteKit 2.x with Svelte 5.x
 - **Language**: TypeScript 5.x
 - **Styling**: CSS with CSS custom properties (no framework)
-- **Build Tool**: Vite 5.x
+- **Build Tool**: Vite 6.x
 - **Adapter**: Auto (Netlify)
 - **Package Manager**: npm with package-lock.json
 

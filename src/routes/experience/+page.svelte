@@ -6,7 +6,8 @@
 
 <svelte:head>
 	<title>Erfaring - Glenn.</title>
-	<meta name="description" content="Overview of work experience" />
+	<meta name="description" content="Arbeidserfaring og utdanning for Glenn Arnold Barosen" />
+	<meta property="og:title" content="Erfaring - Glenn Arnold Barosen" />
 </svelte:head>
 <div>
 	<main>

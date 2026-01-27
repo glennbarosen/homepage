@@ -1,10 +1,12 @@
 <script lang="ts">
 	import type { Experience as ExperienceItem } from '$lib/data/cv';
-	export let title: ExperienceItem['title'] = '';
-	export let company: ExperienceItem['company'] = '';
-	export let period: ExperienceItem['period'] = '';
-	export let type: ExperienceItem['type'] = undefined;
-	export let description: ExperienceItem['description'] = undefined;
+	let {
+		title = '',
+		company = '',
+		period = '',
+		type = undefined,
+		description = undefined
+	}: ExperienceItem = $props();
 </script>
 
 <article>
