@@ -1,6 +1,7 @@
 <script lang="ts">
-	import { experience } from './experience';
+	import { experience, education } from '$lib/data/cv';
 	import Experience from './Experience.svelte';
+	import Education from './Education.svelte';
 </script>
 
 <svelte:head>
@@ -11,14 +12,14 @@
 	<main>
 		<section>
 			<h2>Arbeid</h2>
-			{#each experience['work'] as { title, company, startDate, endDate }}
-				<Experience {title} {company} {startDate} {endDate} />
+			{#each experience as { title, company, period, type, description }}
+				<Experience {title} {company} {period} {type} {description} />
 			{/each}
 		</section>
 		<section>
 			<h2>Utdanning</h2>
-			{#each experience['education'] as { title, company, additionalInfo, startDate, endDate }}
-				<Experience {title} {company} {additionalInfo} {startDate} {endDate} />
+			{#each education as { degree, institution, period, details }}
+				<Education {degree} {institution} {period} {details} />
 			{/each}
 		</section>
 	</main>
