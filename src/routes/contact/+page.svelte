@@ -5,8 +5,8 @@
 </svelte:head>
 
 <main>
-	<a href="mailto:glennbarosen@gmail.com" aria-label="Send e-post til Glenn"
-		>glennbarosen@gmail.com</a
+	<a href="mailto:hei@glennbarosen.com" aria-label="Send e-post til Glenn"
+		>hei@glennbarosen.com</a
 	>
 	<a href="tel:92822779" aria-label="Ring Glenn">+47 928 22 779</a>
 	<a href="https://linkedin.com/in/glenn-barosen" target="_blank" rel="noopener noreferrer">
