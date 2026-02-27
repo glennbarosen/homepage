@@ -1,0 +1,11 @@
+{
+  "healthchecks": {
+    "web": {
+      "type": "http",
+      "initial_delay": 5,
+      "timeout": 30,
+      "wait": 5,
+      "attempts": 3
+    }
+  }
+}
