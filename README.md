@@ -17,7 +17,7 @@ pnpm dev
 pnpm build
 
 # Run the built app locally
-npm start
+pnpm start
 ```
 
 ## Deployment
@@ -51,13 +51,13 @@ The Dokku server will automatically:
 Watch logs in real-time:
 
 ```bash
-ssh personal "dokku logs -f homepage --tail 100"
+ssh root@46.62.135.107 "dokku logs -f homepage --tail 100"
 ```
 
 Or check the latest deployment status:
 
 ```bash
-ssh personal "dokku ps:inspect homepage"
+ssh root@46.62.135.107 "dokku ps:inspect homepage"
 ```
 
 ### App Details
