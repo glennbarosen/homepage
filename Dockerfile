@@ -2,8 +2,11 @@ FROM node:20-alpine
 
 WORKDIR /app
 
+# Update npm to avoid "Exit handler never called" bug
+RUN npm install -g npm@latest
+
 COPY package*.json ./
-RUN npm ci
+RUN npm install
 
 COPY . .
 
