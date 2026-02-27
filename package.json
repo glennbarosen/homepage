@@ -1,6 +1,9 @@
 {
 	"name": "homepage",
 	"version": "0.0.1",
+	"engines": {
+		"node": "20.x"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
