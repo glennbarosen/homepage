@@ -220,7 +220,6 @@ Example:
 ### Deployment
 
 - **Platform**: Netlify
-- **Adapter**: `@sveltejs/adapter-netlify`
 - **Trigger**: Push to `main` branch
 - **Build**: `npm run build` → deploys `build/` directory
 - **Environment**: Works with Netlify's environment variables via `$env/static/public`

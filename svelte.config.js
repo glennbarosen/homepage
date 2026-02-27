@@ -9,7 +9,7 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		// netlify adapter to allow easy deployment to netlify
+		// Node adapter to allow easy deployment to netlify
 		adapter: adapter()
 	}
 };
