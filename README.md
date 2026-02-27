@@ -15,9 +15,6 @@ pnpm dev
 
 # Build for production
 pnpm build
-
-# Run the built app locally
-pnpm start
 ```
 
 ## Deployment
@@ -51,19 +48,19 @@ The Dokku server will automatically:
 Watch logs in real-time:
 
 ```bash
-ssh root@46.62.135.107 "dokku logs -f homepage --tail 100"
+ssh root@your-server-ip "dokku logs -f homepage --tail 100"
 ```
 
 Or check the latest deployment status:
 
 ```bash
-ssh root@46.62.135.107 "dokku ps:inspect homepage"
+ssh root@your-server-ip "dokku ps:inspect homepage"
 ```
 
 ### App Details
 
 - **URL:** https://glennbarosen.com
-- **Server:** Hetzner Cloud (46.62.135.107)
+- **Server:** Hetzner Cloud (Dokku PaaS)
 - **Runtime:** Node.js 24.x
 - **Package Manager:** pnpm with lockfile
 - **Container Port:** 3000
