@@ -2,15 +2,15 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-# Update npm to avoid "Exit handler never called" bug
-RUN npm install -g npm@latest
+# Install pnpm
+RUN npm install -g pnpm@latest
 
-COPY package*.json ./
-RUN npm install
+COPY package.json pnpm-lock.yaml* ./
+RUN pnpm install --frozen-lockfile || pnpm install
 
 COPY . .
 
-RUN npm run build
+RUN pnpm run build
 
 EXPOSE 3000
-CMD ["npm", "start"]
+CMD ["pnpm", "start"]
