@@ -5,9 +5,13 @@
 		content="Om Glenn Arnold Barosen - fullstackutvikler med fokus på frontend"
 	/>
 	<meta property="og:title" content="Om Glenn Arnold Barosen" />
+	<meta
+		property="og:description"
+		content="Om Glenn Arnold Barosen - fullstackutvikler med fokus på frontend"
+	/>
 </svelte:head>
 
-<main>
+<div class="page">
 	<h1>Hei! 👋</h1>
 	<p>
 		Jeg er Glenn Arnold Barosen, en fullstackutvikler med fokus på frontend. Jeg trives godt med å
@@ -16,10 +20,10 @@
 		teknologier og holde meg oppdatert på ting som skjer i teknologiverden.
 	</p>
 	<p>Ta gjerne kontakt for å slå av en prat eller ta en kaffe ☕</p>
-</main>
+</div>
 
 <style>
-	main {
+	.page {
 		max-width: 720px;
 		display: flex;
 		flex-direction: column;

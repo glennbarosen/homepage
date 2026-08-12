@@ -2,20 +2,22 @@
 	<title>Kontakt - Glenn.</title>
 	<meta name="description" content="Kontaktinformasjon for Glenn Arnold Barosen" />
 	<meta property="og:title" content="Kontakt Glenn Arnold Barosen" />
+	<meta property="og:description" content="Kontaktinformasjon for Glenn Arnold Barosen" />
 </svelte:head>
 
-<main>
-	<a href="mailto:hei@glennbarosen.com" aria-label="Send e-post til Glenn"
-		>hei@glennbarosen.com</a
-	>
+<div class="page">
+	<h1 class="visually-hidden">Kontakt</h1>
+	<a href="mailto:hei@glennbarosen.com">hei@glennbarosen.com</a>
 	<a href="https://linkedin.com/in/glenn-barosen" target="_blank" rel="noopener noreferrer">
-		linkedIn
+		linkedIn<span class="visually-hidden"> (åpnes i ny fane)</span>
 	</a>
-	<a href="https://github.com/glennbarosen" target="_blank" rel="noopener noreferrer">github</a>
-</main>
+	<a href="https://github.com/glennbarosen" target="_blank" rel="noopener noreferrer">
+		github<span class="visually-hidden"> (åpnes i ny fane)</span>
+	</a>
+</div>
 
 <style>
-	main {
+	.page {
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;

@@ -9,7 +9,8 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		// Node adapter to allow easy deployment to netlify
+		// Node adapter: the app is built into a Docker image and run with
+		// `node build` on Dokku.
 		adapter: adapter()
 	}
 };

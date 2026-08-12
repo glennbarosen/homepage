@@ -4,7 +4,7 @@
 </script>
 
 <article>
-	<h2>{degree}</h2>
+	<h3>{degree}</h3>
 	<p class="institution">{institution}</p>
 	<p class="period">{period}</p>
 	{#if details}
@@ -18,7 +18,7 @@
 		flex-direction: column;
 		margin-bottom: 1rem;
 	}
-	h2 {
+	h3 {
 		font-size: var(--font-large);
 		font-weight: 100;
 		margin-bottom: 0.5rem;
@@ -32,11 +32,11 @@
 	}
 	p.period {
 		font-size: 0.9rem;
-		opacity: 0.8;
+		color: var(--color-muted);
 	}
 	p.details {
 		font-size: 0.95rem;
-		opacity: 0.9;
+		color: var(--color-muted);
 		margin-top: 0.5rem;
 	}
 </style>

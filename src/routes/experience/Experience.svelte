@@ -10,7 +10,7 @@
 </script>
 
 <article>
-	<h2>{title}</h2>
+	<h3>{title}</h3>
 	{#if type}
 		<div class="badge-container">
 			<span class="type-badge">{type}</span>
@@ -29,7 +29,7 @@
 		flex-direction: column;
 		margin-bottom: 1rem;
 	}
-	h2 {
+	h3 {
 		font-size: var(--font-large);
 		font-weight: 100;
 		margin-bottom: 0.5rem;
@@ -43,11 +43,11 @@
 	}
 	p.period {
 		font-size: 0.9rem;
-		opacity: 0.8;
+		color: var(--color-muted);
 	}
 	p.description {
 		font-size: 0.95rem;
-		opacity: 0.9;
+		color: var(--color-muted);
 		margin-top: 0.5rem;
 	}
 	.badge-container {

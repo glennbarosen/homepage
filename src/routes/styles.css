@@ -1,6 +1,10 @@
 :root {
+	color-scheme: light dark;
 	--color-bg: #ece9e5;
 	--color-text: #000;
+	/* Secondary text. Chosen as the lightest value that still clears WCAG AA
+	   (4.5:1) against --color-bg, since the global font-weight is 100. */
+	--color-muted: #676767;
 	--font-large: 4rem;
 	--font-medium: 1.4rem;
 }
@@ -9,6 +13,7 @@
 	:root {
 		--color-bg: #313030;
 		--color-text: #fff;
+		--color-muted: #9c9c9c;
 	}
 }
 @media screen and (max-width: 600px) {
@@ -56,6 +61,20 @@ a {
 
 a:hover {
 	text-decoration: underline;
+}
+
+/* Available to screen readers and voice control, but takes up no space and
+   makes no visual difference. Used for page-level <h1>s the design has no
+   room for, and for new-tab warnings on external links. */
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	overflow: hidden;
+	clip-path: inset(50%);
+	white-space: nowrap;
+	border: 0;
 }
 
 footer {

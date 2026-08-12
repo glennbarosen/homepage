@@ -5,6 +5,8 @@
 	<meta property="og:description" content="Fullstackutvikler med fokus på frontend" />
 </svelte:head>
 
+<h1 class="visually-hidden">Glenn Arnold Barosen</h1>
+
 <nav aria-label="Hovednavigasjon">
 	<ul>
 		<li><a href="/about">Om</a></li>

@@ -4,6 +4,8 @@
 
 Built with SvelteKit.
 
+Working on this with an AI assistant? See [AGENTS.md](./AGENTS.md).
+
 ## Quick Start
 
 ```bash
@@ -61,7 +63,7 @@ ssh root@your-server-ip "dokku ps:inspect homepage"
 
 - **URL:** https://glennbarosen.com
 - **Server:** Hetzner Cloud (Dokku PaaS)
-- **Runtime:** Node.js 24.x
+- **Runtime:** Node.js 24.x (`node:24-alpine`)
 - **Package Manager:** pnpm with lockfile
 - **Container Port:** 3000
 - **HTTPS:** Let's Encrypt (auto-renews 30 days before expiration)
@@ -70,5 +72,5 @@ ssh root@your-server-ip "dokku ps:inspect homepage"
 
 - **Framework:** SvelteKit
 - **Adapter:** Node.js (via @sveltejs/adapter-node)
-- **Container:** Docker with multi-stage build
+- **Container:** Docker
 - **PaaS:** Dokku on Ubuntu 24.04
