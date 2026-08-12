@@ -38,6 +38,7 @@ git push origin main && git push dokku main
 ```
 
 The Dokku server will automatically:
+
 1. Detect the new commits
 2. Build a Docker image using the `Dockerfile`
 3. Start a new container with pnpm dependencies frozen

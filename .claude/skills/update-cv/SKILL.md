@@ -49,7 +49,7 @@ Both arrays are strictly **reverse-chronological by start date** — newest firs
 - Do **not** group entries by employer. The two Fremtind stints are deliberately
   non-contiguous because a Naeva role sits between them chronologically. Leave that alone.
 
-Nothing sorts these arrays at runtime and nothing validates the order — array order *is* the
+Nothing sorts these arrays at runtime and nothing validates the order — array order _is_ the
 rendered order, so getting the insertion position right is the whole job.
 
 ## Period Format

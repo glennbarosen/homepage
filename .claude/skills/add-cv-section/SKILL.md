@@ -5,7 +5,7 @@ description: Add a whole new CV category to the experience page — projects, ce
 
 # Add a CV Section Skill
 
-Adding a *job* is a one-file edit (that's `update-cv`). Adding a new **category** touches four files
+Adding a _job_ is a one-file edit (that's `update-cv`). Adding a new **category** touches four files
 and has one failure mode that produces no error at all. Follow the order below.
 
 First, confirm with the user what the section is called **in Norwegian** — all headings on the site
