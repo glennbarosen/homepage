@@ -190,15 +190,18 @@ Four places, and missing any of them fails silently:
 ## Deployment
 
 - **Platform**: Dokku (self-hosted PaaS) on Hetzner Cloud, building from the `Dockerfile`
-- **Trigger**: manual — `git push dokku main`. **Pushing to `origin` does not deploy.**
+- **Trigger**: automatic — a GitHub Actions workflow (`.github/workflows/deploy.yml`) pushes to
+  Dokku on every push to `main`. Merging to `main` deploys.
 - **Build**: Docker image runs `pnpm build`, container starts with `pnpm start` (`node build`) on
   port 3000
+- **Healthcheck**: `app.json` defines a startup healthcheck against `/` so Dokku does a
+  zero-downtime deploy
 - **HTTPS**: Let's Encrypt, auto-renewing
 
-Deploy both remotes together:
+If CI is down, deploy manually from a server with SSH access to the Dokku host:
 
 ```bash
-git push origin main && git push dokku main
+ssh personal 'sudo dokku git:sync --build homepage https://github.com/glennbarosen/homepage.git main'
 ```
 
 ## Type-Checking & Linting

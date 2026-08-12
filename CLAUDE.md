@@ -14,7 +14,7 @@ read that first. It is the single source of truth; don't duplicate it here.
 - `<main>` belongs to `+layout.svelte` only. Pages use `<div class="page">`.
 - Secondary text uses `var(--color-muted)`, never `opacity` — the muted tokens are tuned to the
   WCAG AA floor.
-- `git push origin main` does not deploy. Deploying is a separate `git push dokku main`.
+- Deploying is automatic on merge to `main` (GitHub Actions pushes to Dokku). No manual deploy step needed.
 
 ## Before you finish
 
