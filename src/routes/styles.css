@@ -3,7 +3,7 @@
 	--color-bg: #ece9e5;
 	--color-text: #000;
 	/* Secondary text. Chosen as the lightest value that still clears WCAG AA
-	   (4.5:1) against --color-bg, since the global font-weight is 100. */
+	   (4.5:1) against --color-bg, since the global font-weight is 400. */
 	--color-muted: #676767;
 	--font-large: 4rem;
 	--font-medium: 1.4rem;
@@ -31,7 +31,7 @@
 
 * {
 	margin: 0;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 html {

@@ -60,7 +60,7 @@ The visual design is settled. Fix bugs and accessibility within it; do not redes
   - `--color-text`: `#000` light / `#fff` dark
   - `--color-muted`: `#676767` light / `#9c9c9c` dark — secondary text
 - **Type**: `--font-large` (4rem → 2.5rem under 600px), `--font-medium` (1.4rem → 1.2rem).
-  Global `font-weight: 100`; the font is Inter, loaded from Google Fonts in `+layout.svelte`.
+  Global `font-weight: 400`; the font is Inter, loaded from Google Fonts in `+layout.svelte`.
 - **Dark mode**: `prefers-color-scheme` only, no manual toggle.
 - **View Transitions**: via the View Transitions API in `+layout.svelte`'s `onNavigate`.
 - **Language**: Norwegian (Bokmål). All UI strings are hardcoded Norwegian — there is no i18n layer.

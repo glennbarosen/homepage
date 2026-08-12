@@ -19,7 +19,7 @@
 	nav {
 		display: flex;
 		flex-direction: column;
-		font-weight: 100;
+		font-weight: 400;
 		font-size: var(--font-large);
 	}
 	ul {

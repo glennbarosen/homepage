@@ -51,7 +51,7 @@
 
 	h2 {
 		font-size: 0.8rem;
-		font-weight: 100;
+		font-weight: 400;
 		color: var(--color-muted);
 	}
 

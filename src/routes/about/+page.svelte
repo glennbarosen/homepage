@@ -32,7 +32,7 @@
 
 	h1 {
 		font-size: var(--font-large);
-		font-weight: 100;
+		font-weight: 400;
 	}
 	p {
 		font-size: var(--font-medium);

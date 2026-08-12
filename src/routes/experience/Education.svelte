@@ -20,7 +20,7 @@
 	}
 	h3 {
 		font-size: var(--font-large);
-		font-weight: 100;
+		font-weight: 400;
 		margin-bottom: 0.5rem;
 	}
 	p {
