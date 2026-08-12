@@ -7,7 +7,7 @@
 
 <div class="page">
 	<h1 class="visually-hidden">Kontakt</h1>
-	<a href="mailto:hei@glennbarosen.com">hei@glennbarosen.com</a>
+	<a href="mailto:glennbarosen@pm.me">glennbarosen@pm.me</a>
 	<a href="https://linkedin.com/in/glenn-barosen" target="_blank" rel="noopener noreferrer">
 		linkedIn<span class="visually-hidden"> (åpnes i ny fane)</span>
 	</a>
